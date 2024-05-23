@@ -1,0 +1,115 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+.settings-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.section-left, .section-right {
+    width: 45%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.section-left {
+    margin-right: 20px;
+}
+
+.test-section, .connection-section, .parameters-section {
+    margin-bottom: 20px;
+}
+
+.test-section, .connection-section, .parameters-section {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.test-section h3, .connection-section h3, .parameters-section h3 {
+    margin-top: 0;
+    color: #000000;
+}
+
+.test-section hr, .connection-section hr, .parameters-section hr {
+    margin-top: 10px;
+}
+
+.test-section p, .connection-section p, .parameters-section p {
+    margin: 5px 0;
+}
+
+.test-section button, .parameters-section button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.test-section button:hover, .parameters-section button:hover {
+    background-color: #211869;
+}
+
+input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.horizontal-motion {
+    display: flex;
+    align-items: center;
+}
+
+.step-buttons {
+    margin-left: 10px;
+}
+
+.step-buttons button {
+    margin-left: 5px;
+    padding: 5px 10px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.step-buttons button:hover {
+    background-color: #211869;
+}
+.ortala{
+    margin-left: 250px;
+}
+.ort{
+    margin-left: 200px;
+}
+.btn2{
+    margin-left: 5px;
+    padding: 5px 10px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.btn2:hover {
+    background-color: #211869;
+}
